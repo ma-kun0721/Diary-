@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Diary;
 use App\Http\Requests\CreateDiary;
 
+
 class DiaryController extends Controller
 {
     public function index()
