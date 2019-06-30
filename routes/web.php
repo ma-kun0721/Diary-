@@ -19,3 +19,6 @@ Route::post('diary/create', 'DiaryController@store')->name('diary.create'); // �
 
 // {xx} ->ワイルドカード, xxの名前はなんでもOK
 Route::delete('diary/{id}/delete', 'DiaryController@destroy')->name('diary.destroy'); // 削除処理
+Route::get('diary/{id}/edit', 'DiaryController@edit')->name('diary.edit'); // 編集画面
+Route::put('diary/{id}/update', 'DiaryController@update')->name('diary.update'); //更新処理
+Route::delete('diary/{id}/delete', 'DiaryController@destroy')->name('diary.destroy'); // 削除処理
