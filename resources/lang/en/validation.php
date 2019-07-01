@@ -112,6 +112,13 @@ return [
     'unique'               => 'The :attribute has already been taken.',
     'uploaded'             => 'The :attribute failed to upload.',
     'url'                  => 'The :attribute format is invalid.',
+    'confirmed' => ':attribute が確認欄と一致しません。',
+    'email' => ':attribute として有効な形式になっていません。',
+    'min' => [
+        'string' => ':attribute は :min 文字以上にしてください。',
+    ],
+    'string' => ':attribute には文字を入力してください。',
+    'unique' => ':attribute はすでに使用されています。',
 
     /*
     |--------------------------------------------------------------------------
